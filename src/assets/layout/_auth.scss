@@ -1,0 +1,18 @@
+.auth-layout-footer {
+    transition: margin-left $transitionDuration;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.flex-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+    
+.flex-group > * {
+    min-width: fit-content;
+    flex: 1;
+}
